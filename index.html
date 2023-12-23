@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+    To-Do List
+</title>
+<link rel="icon" href=
+"https://cdn.iconscout.com/icon/premium/png-512-thumb/online-list-4199241-3482471.png?f=webp&w=256"
+type="image/x-icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tajawal:wght@200;300;400;500;700;800&family=Work+Sans:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+</style>
+<body>
+<div  style="direction: rtl;">
+    <!-- Center Div -->
+    <div class="center">
+            <!--Tasks Table-->
+            <div class="tasks-table">
+                <!--Header-->
+                <div class="header">
+                    <h1>مهامي</h1>
+                    <button id="add-btn" class="add-btn circular">
+                        <span class="material-symbols-outlined">
+                            add
+                        </span>
+                    </button>
+        </div>
+        <!--End Header-->
+        <!--Tasks-->
+        <div id="tasks">
+            <!--Task-->
+            <div class="task">
+                <!--Task info-->
+                <div class="task-info">
+                    <h2>قراءة كتاب</h2>
+                    <div>
+                        <span class="material-symbols-outlined">
+                            calendar_month
+                            </span>
+                        <span>10/10/2023</span>
+                    </div>
+                </div>
+                <!--End Task info-->
+                <!--Task action-->
+                <div   class="buttons task-action">
+                    <button class="circular del-btn">
+                        <span class="material-symbols-outlined">
+                            delete
+                            </span>
+                    </button>
+                    <button class="circular done-btn" >
+                        <span class="material-symbols-outlined">
+                            done
+                            </span>
+                    </button>
+                    <button class="circular edit-btn">
+                        <span class="material-symbols-outlined">
+                            edit
+                            </span>
+                    </button>
+                </div>
+                <!--End Task action-->
+            </div>
+            <!--End Task-->
+        </div>
+        <!--End Tasks-->
+    </div>
+    <!-- End Tasks Table-->
+</div>
+<!-- End Center Div -->
+</div>
+</body>
+<script src="main.js">
+
+</script>
+</html>
